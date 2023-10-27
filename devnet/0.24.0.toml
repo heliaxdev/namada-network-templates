@@ -66,6 +66,58 @@ kd_gain_nom = "0.1"
 kp_gain_nom = "0.1"
 locked_ratio_target = "0.6667"
 
+[token.Schnitzel]
+address = "atest1v4ehgw36xue5xvf5xvuyzvpjx5un2v3k8qeyvd3cxdqns32p89rrxd6xx9zngvpegccnzs699rdnnt"
+denom = 6
+vp = "vp_token"
+[token.Schnitzel.balances]
+Albert = "1000000"
+Bertha = "1000000"
+Christel = "1000000"
+Daewon = "1000000"
+Ester = "1000000"
+faucet = "9223372036854"
+[token.Schnitzel.parameters]
+max_reward_rate = "0.1"
+kd_gain_nom = "0.1"
+kp_gain_nom = "0.1"
+locked_ratio_target = "0.6667"
+
+[token.Apfel]
+address = "atest1v4ehgw36gfryydj9g3p5zv3kg9znyd358ycnzsfcggc5gvecgc6ygs2rxv6ry3zpg4zrwdfeumqcz9"
+denom = 6
+vp = "vp_token"
+[token.Apfel.balances]
+Albert = "1000000"
+Bertha = "1000000"
+Christel = "1000000"
+Daewon = "1000000"
+Ester = "1000000"
+faucet = "9223372036854"
+[token.Apfel.parameters]
+max_reward_rate = "0.1"
+kd_gain_nom = "0.1"
+kp_gain_nom = "0.1"
+locked_ratio_target = "0.6667"
+
+[token.Kartoffel]
+address = "atest1v4ehgw36gep5ysecxq6nyv3jg3zygv3e89qn2vp48pryxsf4xpznvve5gvmy23fs89pryvf5a6ht90"
+denom = 6
+vp = "vp_token"
+[token.Kartoffel.balances]
+Albert = "1000000"
+Bertha = "1000000"
+Christel = "1000000"
+Daewon = "1000000"
+Ester = "1000000"
+faucet = "9223372036854"
+[token.Kartoffel.parameters]
+max_reward_rate = "0.1"
+kd_gain_nom = "0.1"
+kp_gain_nom = "0.1"
+locked_ratio_target = "0.6667"
+
+
 # Some implicit accounts present at genesis.
 
 [implicit.faucet]
