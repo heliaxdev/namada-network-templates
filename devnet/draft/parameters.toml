@@ -69,9 +69,9 @@ liveness_window_check = 100
 # the `liveness_window_check`
 liveness_threshold = "0.9"
 # The P gain factor in the Proof of Stake rewards controller
-pos_gain_p = "0.1"
+rewards_gain_p = "0.1"
 # The D gain factor in the Proof of Stake rewards controller
-pos_gain_d = "0.1"
+rewards_gain_d = "0.1"
 
 # Governance parameters.
 [gov_params]
