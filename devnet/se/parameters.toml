@@ -1,10 +1,10 @@
 # General protocol parameters.
 [parameters]
-native_token = "NAM"
+native_token = "NAAN"
 # Minimum number of blocks in an epoch.
-min_num_of_blocks = 4
+min_num_of_blocks = 24
 # Maximum expected time per block (in seconds).
-max_expected_time_per_block = 30
+max_expected_time_per_block = 7
 # Max payload size, in bytes, for a tx.
 max_tx_bytes = 1048576
 # Max payload size, in bytes, for a tx batch proposal.
@@ -16,11 +16,7 @@ tx_whitelist = []
 # Implicit VP WASM name
 implicit_vp = "vp_implicit"
 # Expected number of epochs per year (also sets the min duration of an epoch in seconds)
-epochs_per_year = 31_536_000
-# The P gain factor in the Proof of Stake rewards controller
-pos_gain_p = "0.1"
-# The D gain factor in the Proof of Stake rewards controller
-pos_gain_d = "0.1"
+epochs_per_year = 262800
 # Maximum number of signature per transaction
 max_signatures_per_transaction = 15
 # Max gas for block
@@ -32,7 +28,7 @@ fee_unshielding_descriptions_limit = 15
 
 # Map of the cost per gas unit for every token allowed for fee payment
 [parameters.minimum_gas_price]
-nam = "0.000001"
+naam = "0.000001"
 
 # Proof of stake parameters.
 [pos_params]
@@ -68,17 +64,21 @@ cubic_slashing_window_length = 1
 validator_stake_threshold = "1"
 # The length, in blocks, of the sliding window for consensus validators
 # inactivity verification
-liveness_window_check = 100
+liveness_window_check = 500
 # The minimum required activity of consensus validators, in percentage, over
 # the `liveness_window_check`
-liveness_threshold = "0.9"
+liveness_threshold = "0.85"
+# The P gain factor in the Proof of Stake rewards controller
+rewards_gain_p = "0.25"
+# The D gain factor in the Proof of Stake rewards controller
+rewards_gain_d = "0.25"
 
 # Governance parameters.
 [gov_params]
 # minimum amount of nam token to lock
 min_proposal_fund = 500
 # proposal code size in bytes
-max_proposal_code_size = 600000
+max_proposal_code_size = 1000000
 # min proposal period length in epochs
 min_proposal_voting_period = 3
 # max proposal period length in epochs
@@ -86,7 +86,7 @@ max_proposal_period = 27
 # maximum number of characters in the proposal content
 max_proposal_content_size = 10000
 # minimum epochs between end and grace epoch
-min_proposal_grace_epochs = 6
+min_proposal_grace_epochs = 2
 
 # Public goods funding parameters
 [pgf_params]
