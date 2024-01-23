@@ -9,29 +9,3 @@ kd_gain_nom = "0.1"
 kp_gain_nom = "0.1"
 locked_ratio_target = "0.6667"
 
-[token.NATOM]
-denom = 6
-
-[token.NATOM.parameters]
-max_reward_rate = "0.0"
-kd_gain_nom = "0.0"
-kp_gain_nom = "0.0"
-locked_ratio_target = "0.0"
-
-[token.NETH]
-denom = 18
-
-[token.NETH.parameters]
-max_reward_rate = "0.0"
-kd_gain_nom = "0.0"
-kp_gain_nom = "0.0"
-locked_ratio_target = "0.0"
-
-[token.NOSMO]
-denom = 6
-
-[token.NOSMO.parameters]
-max_reward_rate = "0.0"
-kd_gain_nom = "0.0"
-kp_gain_nom = "0.0"
-locked_ratio_target = "0.0"
