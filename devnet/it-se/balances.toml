@@ -1,15 +1,3 @@
 [token.NETH]
 # this always needs to be present for our tooling to work
 tpknam1qzvszv50azclqa05reqveehkwknpl4kh6tn3vajpt0vusa8mjpluk89ac03 = "10000000"
-
-[token.NATOM]
-# this always needs to be present for our tooling to work
-tpknam1qzvszv50azclqa05reqveehkwknpl4kh6tn3vajpt0vusa8mjpluk89ac03 = "10000000"
-
-[token.NOSMO]
-# this always needs to be present for our tooling to work
-tpknam1qzvszv50azclqa05reqveehkwknpl4kh6tn3vajpt0vusa8mjpluk89ac03 = "10000000"
-
-[token.NAAN]
-# this always needs to be present for our tooling to work
-tpknam1qzvszv50azclqa05reqveehkwknpl4kh6tn3vajpt0vusa8mjpluk89ac03 = "10000000"
