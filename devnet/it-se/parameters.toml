@@ -18,7 +18,8 @@ tx_allowlist = []
 implicit_vp = "vp_implicit"
 # Expected number of epochs per year (also sets the min duration of an epoch in seconds)
 # Epochs should be 12 hours. ( (365*24*60*60)/(12*60*60) )
-epochs_per_year = 730
+# Epochs set to last 2 minutes
+epochs_per_year = 262800
 # Maximum number of signature per transaction
 max_signatures_per_transaction = 15
 # Max gas for block
