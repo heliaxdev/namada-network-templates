@@ -15,7 +15,7 @@ tx_allowlist = []
 # Implicit VP WASM name
 implicit_vp = "vp_implicit"
 # Expected number of epochs per year (also sets the min duration of an epoch in seconds)
-epochs_per_year = 140160
+epochs_per_year = 105120
 # The multiplier for masp epochs
 masp_epoch_multiplier = 2
 # Max gas for block
@@ -46,10 +46,10 @@ tm_votes_per_token = "1"
 block_proposer_reward = "0.125"
 # Reward for voting on a block.
 block_vote_reward = "0.1"
-# Maximum inflation rate per annum (10%)
+# Maximum inflation rate per annum
 max_inflation_rate = "0.1"
 # Targeted ratio of staked tokens to total tokens in the supply
-target_staked_ratio = "0.6667"
+target_staked_ratio = "0.4"
 # Portion of a validator's stake that should be slashed on a duplicate
 # vote.
 duplicate_vote_min_slash_rate = "0.001"
@@ -67,7 +67,7 @@ validator_stake_threshold = "1000000"
 liveness_window_check = 10_000
 # The minimum required activity of consensus validators, in percentage, over
 # the `liveness_window_check`
-liveness_threshold = "0.9"
+liveness_threshold = "0.1"
 # The P gain factor in the Proof of Stake rewards controller
 rewards_gain_p = "0.25"
 # The D gain factor in the Proof of Stake rewards controller
@@ -104,6 +104,6 @@ maximum_number_of_stewards = 5
 # IBC parameters
 [ibc_params]
 # default mint limit of each token
-default_mint_limit = "10000"
+default_mint_limit = "10000000"
 # default per-epoch throughput limit of each token
-default_per_epoch_throughput_limit = "100000"
+default_per_epoch_throughput_limit = "100000000"
