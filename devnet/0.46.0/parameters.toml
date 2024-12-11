@@ -29,8 +29,8 @@ gas_scale = 50_000
 # Map of the cost per gas unit for every token allowed for fee payment
 [parameters.minimum_gas_price]
 nam = "0.000001"
-btc = "0.000002"
-eth = "0.000003"
+schnitzel = "0.000002"
+apfel = "0.000003"
 
 # Proof of stake parameters.
 [pos_params]
