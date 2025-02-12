@@ -76,7 +76,7 @@ rewards_gain_d = "0.25"
 # Governance parameters.
 [gov_params]
 # minimum amount of nam token to lock
-min_proposal_fund = 500
+min_proposal_fund = 50
 # proposal code size in bytes
 max_proposal_code_size = 600000
 # min proposal period length in epochs
@@ -86,7 +86,7 @@ max_proposal_period = 27
 # maximum number of characters in the proposal content
 max_proposal_content_size = 10000
 # minimum epochs between end and activation epoch
-min_proposal_grace_epochs = 6
+min_proposal_grace_epochs = 2
 # maximum number of epochs between current epoch and start epoch
 max_proposal_latency = 30
 
